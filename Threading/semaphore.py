@@ -3,13 +3,14 @@ import time
 
 # if we set 1 then it will work as binary semaphore that is mutex
 # Mutex internally binary semphore hi hote hai
-s = Semaphore(3)
+s = Semaphore(4)
 
 def thread(name):
     s.acquire()
-    for i in range(5):
-        print(f'{name} is working now.')
+    for i in range(2):
+        print(f'{name} is working now. ans i: {i}')
         time.sleep(1)
+        print('--------------------------')
 
     s.release()
 
