@@ -46,7 +46,6 @@ for info in data:
 
 data = p.findall()
 
-
 # print('\n')
 # print(r'\n')
 
