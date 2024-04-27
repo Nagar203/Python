@@ -18,7 +18,6 @@ Fax: (555) 987-6543"""
 # for info in data:
 #     print(info)
 
-
 # p = re.compile(r'.4')
 # p = re.compile(r'^Name')  # ^ -> use for starting
 # p = re.compile(r'543$') # $ -> use for endswith
