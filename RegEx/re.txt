@@ -1,4 +1,5 @@
-Meta Characters for RegEx 
+Meta Characters for RegEx
+
 
 [] A set of characters
 \ Signals a special sequence (can also be used to escape special characters)
