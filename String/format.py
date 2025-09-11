@@ -1,5 +1,6 @@
 s1 = "Addition: {x} + {y} = {z}".format(x=10,y=20,z=30)
 
+
 x, y, z = 1, 2, 3
 s2 = "Addition: {} + {} = {}".format(x,y,z)
 
