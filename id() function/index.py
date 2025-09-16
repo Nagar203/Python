@@ -1,5 +1,6 @@
 # id() function is a built-in function that returns the unique identifier of an object.
 
+
 name = "string1"
 duplicate_name = "string1" 
 data1 = 10
