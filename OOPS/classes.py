@@ -8,6 +8,7 @@ class className:
     def getData(self):
         print("Name: ", self.name,"\nInfo: ", self.info)
 
+
 obj = className('Parent Class')
 obj.setData(1)
 obj.getData()
